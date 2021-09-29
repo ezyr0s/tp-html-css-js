@@ -1,0 +1,84 @@
+.align-page {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgb(206, 212, 218);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.red {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.font {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 80px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0px;
+  width: 100%;
+}
+
+table tr:hover {
+  background-color: darkgrey !important;
+  cursor: pointer;
+}
+
+thead th {
+  background-color: rgb(33, 37, 41);
+  color: white;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+table td:nth-child(odd) {
+  text-align: center;
+  font-weight: bold;
+}
+
+td {
+  padding: 5px 5px 5px 5px;
+}
+
+.fig1 {
+  background-color: rgb(33, 37, 41);
+  color: white;
+  border: red solid 2px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-style: italic;
+  margin: auto;
+}
+
+img {
+  width: 90%;
+  padding: 10px 10px 10px 10px;
+  margin: auto;
+}
+
+.lastchap {
+  border: mediumslateblue dashed 5px;
+  padding: 10px 10px 10px 10px;
+  font-size: larger;
+  margin-left: 30px;
+  color: mediumslateblue;
+  line-height: 30px;
+}
