@@ -8,6 +8,12 @@ function Etudiant(nom, prenom, age, genre, pays, option, listeCours) {
   this.listeCours = listeCours;
 }
 
+Etudiant.prototype.changerInfos = function (nom, prenom, option) {
+  this.nom = nom;
+  this.prenom = prenom;
+  this.option = option;
+};
+
 let nbrEtudiant = parseInt(prompt("Entrez le nombre d'étudiant à inscrire :"));
 let listeEtudiant = [];
 
