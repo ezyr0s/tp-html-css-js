@@ -1,7 +1,6 @@
 const formCercle = document.querySelector("#formCercle");
 
-formCercle.addEventListener("click", function (e) {
-  e.preventDefault;
+formCercle.addEventListener("click", function () {
   let rayon = document.querySelector("#rayon").value;
   document.querySelector("#diametre").value = rayon * 2;
   document.querySelector("#circonference").value = 2 * 3.14 * rayon;

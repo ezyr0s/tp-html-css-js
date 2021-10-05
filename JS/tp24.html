@@ -5,18 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h3>Fiche d'inscription pour les étudiants</h3>
     <form id="inscription">
+      <span id="formError"></span><br />
+      <span id="formErrorNom"></span><br />
       <input type="text" id="nom" placeholder="Nom" /> <br />
       <input type="text" id="prenom" placeholder="Prénom" /><br />
+      <span id="formErrorAge"></span><br />
       <input type="text" id="age" placeholder="Age" /><br />
+      <span id="formErrorGenre"></span><br />
       <input
         type="text"
         id="genre"
         placeholder="Genre (H ou F ou None)"
       /><br />
+      <span id="formErrorPays"></span><br />
       <input type="text" id="pays" placeholder="Pays d'origine" /><br />
       <input type="text" id="option" placeholder="Option" /><br />
       <input
@@ -41,6 +47,6 @@
       <tbody id="tableauEtudiants"></tbody>
     </table>
 
-    <script src="./tp25.js"></script>
+    <script src="./tp27.js"></script>
   </body>
 </html>
