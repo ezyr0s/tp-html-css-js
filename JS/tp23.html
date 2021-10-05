@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <script src="./tp23.js"></script>
   <body>
-    <h1>Calcul des dimensions du cercle</h1>
-    <form>
+    <h1 id="titre">Calcul des dimensions du cercle</h1>
+    <form id="formCercle">
       <label for="">Rayon : </label>
       <input type="text" id="rayon" value="" /><br /><br />
       <label for="diametre">Diamètre : </label>
@@ -18,7 +17,9 @@
       <input type="text" id="circonference" disabled /><br /><br />
       <label for="aire">Aire : </label>
       <input type="text" id="aire" disabled /><br /><br />
-      <input type="button" value="Calculer" onclick="dimensions();" />
+      <input type="button" value="Calculer" />
     </form>
+
+    <script src="./tp23.js"></script>
   </body>
 </html>
